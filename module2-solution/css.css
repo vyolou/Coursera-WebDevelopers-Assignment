@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.our-menu {
+	font-family: sans-serif;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.item {
+	font-family: calibri;
+	position: relative;
+	top: 0px;
+	background-color: #F4F4F4;
+	margin: 15px;
+	padding: 25px;
+	border: 3px solid black;
+}
+
+.item p {
+	margin-top: 18px;
+	text-align: justify;
+	font-size: 100%;
+}
+	
+h3 {
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	position: relative;
+}
+.item-title {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 6px 90px;
+	border-left: 2px solid;
+	border-bottom: 2px solid;
+}
+
+#title-beef {
+	background-color: red;  
+}
+
+#title-fish {
+	background-color: yellow;
+}
+
+#title-chicken {
+	background-color: green;
+}
+
+/* Simple Responsive Framework. */
+.container {
+	position: relative;
+	top: 60px;
+	margin: 15px;
+}
+
+.row {
+	windth: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  	float: left;
+  }
+
+  .col-lg-1 {
+    width: 8.33%;
+  }9
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-lg-4 {
+  	width: 50%;
+  	float: left;
+  }
+
+  .col-lg-0 {
+  	width: 100%;
+  	float: left;
+  }
+}
+
+/********** Mobile devices Only **********/
+@media (max-width: 767px) {
+  .col-lg-4 {
+  	width: 100%;
+  	float: left;
+  }
+}
