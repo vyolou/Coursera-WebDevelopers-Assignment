@@ -1,0 +1,235 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #d6d6c2;
+  font-family: Comic Sans MS;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #d6d6c2;
+  border-radius: 0;
+  border-bottom: 5px solid black;
+}
+
+.navbar-brand .navbar-default {
+  padding-top: 25px;
+  font-size: 2em;
+}
+
+.navbar-brand h1 { /* Restaurant title */
+  color: #0f0f0a;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  padding-bottom: 10;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.title-our-menu h2 {
+  text-align: center;
+  color: #0f0f0a;
+  padding-bottom: 10px;
+}
+
+.item-menu {
+  margin: 10px;
+  padding: 5px 15px;
+  border: 1px solid #d6d6c2;
+  background-color: #d6d6c2;
+}
+
+.item-title h3 {
+  text-align: center;
+  color: #0f0f0a;
+}
+
+#item p {
+  color: #0f0f0a;
+  padding: 10px;
+  text-align: justify;
+}
+
+#nav-list a {
+  color: #0f0f0a;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#nav-list a:active{
+  border: none;
+  border-width: 0px;
+}
+
+#nav-list a:hover {
+  background: #d6d6c2;
+}
+
+#nav-list a span {
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #0f0f0a;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*********** Large devices only ***********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+ .col-lg-1 {
+    width: 8.33%;
+  }9
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .navbar-brand {
+    padding: 10px;
+    height: 80px;
+  }
+}
+
+/*********** Medium devices only **********/
+@media (min-width: 767px) and (max-width: 1199px) {
+  .col-md-0 {
+    width: 100%;
+    float: left;
+  }
+  .col-md-4 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-6 {
+    width: 48%;
+  }
+
+  h1 {
+    margin-left: 55px;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  #company-name {
+    font-size: 2em;
+  }
+  #chicken {
+    margin-right: 4%;
+  }
+  #beef {
+    margin-right: 0px;
+  }
+  #sushi {
+    margin-top: 10px;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  
+  .internal-link {
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: white;
+  }
+}
+
+/*********** Small devices only ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+  h1{
+    margin-left: 25px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  #company-name{
+    font-size: 2em;
+    color: white;
+  }
+  .navbar-default .navbar-collapse{
+    border: none;
+  }
+
+  .col-md-6, .col-lg-4{
+    width: 100%;
+    margin: 10px;
+  }
+
+  #beef{
+    margin: 10px 0px;
+  }
+  .internal-link{
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+   a:hover{
+    color: white;
+}
+
+/*********** Extra small device only ***********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .varbar-brand h1 { /*Restaurant title */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu glyph */
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 6px;
+
+
+  } 
+
+
